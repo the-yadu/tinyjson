@@ -1,16 +1,16 @@
-# cjson
-## Compact JavaScript Object Notation
+# tinyjson
+## Tiny JavaScript Object Notation
 A format based on json to reduce the size of json object by getting rid of repeated keynames into a schema object
 
 ### Install via npm
-`npm install cjson --save`
+`npm install tinyjson --save`
 
 ### Import
-`var CJSON = require('cjson');`
+`var tinyjson = require('tinyjson');`
 
-`var encodedJSON = CJSON.encode(jsonObject);`
+`var encodedJSON = tinyjson.encode(jsonObject);`
 
-`var decodedJSON = CJSON.decode(cjsonObject);`
+`var decodedJSON = tinyjson.decode(tinyjsonObject);`
 
 A json file with 5000 array of data size comparision
 

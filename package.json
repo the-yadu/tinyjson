@@ -1,6 +1,6 @@
 {
   "name": "tinyjson",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Tiny json format for avoiding keys repeation",
   "main": "index.js",
   "scripts": {

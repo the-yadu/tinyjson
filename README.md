@@ -8,6 +8,8 @@ A format based on json to reduce the size of json object by getting rid of repea
 ### Import
 `var tinyjson = require('tinyjson');`
 
+### Usage
+
 `var encodedJSON = tinyjson.encode(jsonObject);`
 
 `var decodedJSON = tinyjson.decode(tinyjsonObject);`

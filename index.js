@@ -1,8 +1,4 @@
 'use strict';
-// var fs = require('fs');
-// var sampleJson = require('./sample');
-// sampleJson = sampleJson.splice(0, 10);
-// console.log(sampleJson.length);
 
 exports.encode = function (json) {
     this.data = new Array();
@@ -13,7 +9,6 @@ exports.encode = function (json) {
 }
 
 exports.decode = function (cjson) {
-    // console.log(cjson);
     this.json = new Array();
     for (var i = 0; i < cjson.data.length; i++) {
         this.json[i] = new Object;
@@ -23,27 +18,3 @@ exports.decode = function (cjson) {
     }
     return this.json;
 }
-
-
-/*
-var encodedJSON = exports.encode(sampleJson);
-
-fs.writeFile("encoded.json", JSON.stringify(encodedJSON), function (err) {
-    if (err) {
-        return console.log(err);
-    }
-
-    console.log("The encoded file was saved!");
-
-    var decodedJSON = exports.decode(require('./encoded'));
-    fs.writeFile("decoded.json", JSON.stringify(decodedJSON), function (err) {
-        if (err) {
-            return console.log(err);
-        }
-
-        console.log("The decoded file was saved!");
-    });
-
-});
-*/
-

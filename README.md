@@ -1,4 +1,9 @@
 # tinyjson
+[![NPM Version](http://img.shields.io/npm/v/tinyjson.svg?style=flat-square)](https://www.npmjs.com/package/tinyjson)
+[![NPM Downloads](https://img.shields.io/npm/dt/tinyjson.svg?style=flat-square)](https://www.npmjs.com/package/tinyjson)
+[![MIT License](https://img.shields.io/npm/l/tinyjson.svg?style=flat-square)](./LICENSE)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square)](https://conventionalcommits.org)
+
 ## Tiny JavaScript Object Notation
 A format based on json to reduce the size of json object by getting rid of repeated keynames into a schema object
 
@@ -12,7 +17,7 @@ A format based on json to reduce the size of json object by getting rid of repea
 
 `var encodedJSON = tinyjson.encode(jsonObject);`
 
-`var decodedJSON = tinyjson.decode(tinyjsonObject);`
+`var decodedJSON = tinyjson.decode(encodedJSON);`
 
 A json file with 5000 array of data size comparision
 
